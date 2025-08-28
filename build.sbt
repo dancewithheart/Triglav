@@ -4,11 +4,11 @@ description := "Tremble FP mortals as Trzygłów is walking among us!"
 
 version := "0.0.1"
 
-scalaVersion := "2.13.15"
+scalaVersion := "2.13.16"
 
-resolvers += Resolver.sonatypeRepo("snapshots")
+resolvers += Resolver.sonatypeCentralSnapshots
 
-lazy val catsVersion = "2.12.0"
+lazy val catsVersion = "2.13.0"
 lazy val scalacheckVersion = "1.14.3"
 lazy val zioVersion = "1.0.18"
 
